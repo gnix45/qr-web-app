@@ -13,8 +13,8 @@ A simple, elegant, and minimalistic QR Code Generator built with **Flask** and *
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/gnix45/qr-web-app.git
+cd qr-web-app
 ```
 
 ### 2️⃣ Install Dependencies
@@ -63,5 +63,5 @@ python app.py
 ## 📝 License
 This project is open-source and free to use.
 
-👨‍💻 **Made with ❤️ by [Your Name]**
+👨‍💻 **Made with ❤️ by [TECHTRIBE]**
 
