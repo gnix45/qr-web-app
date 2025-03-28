@@ -7,8 +7,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <style>
         body {
-            background: #f8f9fa;
+            background: linear-gradient(45deg, #6a11cb, #2575fc);
+            background-size: 200% 200%;
+            animation: backgroundAnimation 10s infinite alternate;
         }
+
+        @keyframes backgroundAnimation {
+            0% { background-position: left; }
+            100% { background-position: right; }
+        }
+
         .container {
             max-width: 400px;
             margin-top: 50px;
@@ -24,10 +32,6 @@
             color: white;
             border-radius: 20px;
         }
-        @keyframes backgroundAnimation {
-            0% { background-position: left; }
-            100% { background-position: right; }
-        }
         .footer {
             text-align: center;
             margin-top: 20px;
@@ -37,6 +41,7 @@
         .footer a {
             color: #ffdd57;
             text-decoration: none;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -54,11 +59,10 @@
         <img src="{{ qr_img }}" alt="QR Code" class="mt-2">
     {% endif %}
 </div>
-<div>
-    <footer>
-        Tech Tribe
-    </footer>
 
+<div class="footer">
+    Made with ❤️ by <a href="https://www.youtube.com/@TechTribe" target="_blank">Tech Tribe</a>
 </div>
+
 </body>
 </html>
