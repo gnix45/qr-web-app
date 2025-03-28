@@ -24,6 +24,20 @@
             color: white;
             border-radius: 20px;
         }
+        @keyframes backgroundAnimation {
+            0% { background-position: left; }
+            100% { background-position: right; }
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: white;
+            font-size: 14px;
+        }
+        .footer a {
+            color: #ffdd57;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
@@ -40,6 +54,11 @@
         <img src="{{ qr_img }}" alt="QR Code" class="mt-2">
     {% endif %}
 </div>
+<div>
+    <footer>
+        Tech Tribe
+    </footer>
 
+</div>
 </body>
 </html>
